@@ -1,0 +1,88 @@
+html, body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 13px/1.5 sans-serif;
+}
+
+.intro {
+  font-size: 150%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 3%;
+  width: 70%;
+  text-align: justify;
+}
+
+.paragraph-3 {
+  text-align: right;
+}
+
+.image-container {
+  margin-top: 40px;
+  margin-left: 15%;
+  margin-right: 15%;
+  /*margin: 0 auto;
+  width: 800px;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /*vertical-align: middle;*/
+}
+
+.img {
+  /*line-height: 175px;*/
+  flex-basis: 23%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /*width: 150px;*/
+  /*margin: 10px;*/
+  /*margin-right: 25px;*/
+  /*flex: 1 1 23%;*/
+}
+
+.img img {
+  width: 125px;
+}
+/*
+.filler {
+  flex: auto;
+}*/
+
+.bottom-text {
+  text-align: center;
+  border-top: .5px solid #aaa;
+  margin: 10px 15%;
+  width: 70%;
+}
+
+.imagine {
+  padding-top: 5px;
+  clear: both;
+  font: 13px/1.5;
+}
+
+ul {
+  padding: 0px;
+}
+
+ul > li {
+  text-decoration: none;
+  display: inline;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #0645AD;
+}
